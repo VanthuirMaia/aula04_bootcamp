@@ -1,6 +1,6 @@
 # Crie um dicionário para armazenar informações de um livro, incluindo título, autor e ano de publicação. Imprima cada informação.
 
-livros = {
+livros:dict = {
 "Livro_01": {
     "Titulo":"Deixe de ser Probre",
     "Autor":"Eduardo Fieldberg",
