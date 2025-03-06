@@ -1,12 +1,6 @@
-from typing import Dict, Any
+# Lista de números ao quadrado
 
-livro: Dict[str, Any] = {
-    "Titulo": "Game of Thrones",
-    "Autor": "João da Silva",
-    "Ano_Publ": 2005
-}
+lista_numeros: list = list(range(0,11)) # Lista de números
 
-lista_de_elementos: list = livro.items()
-for elemento in lista_de_elementos:
-    print(elemento)
-
+for numero in lista_numeros: # Itera sobre a lista
+    print(numero**2) # Mostra o numero elevado ao quadrado
