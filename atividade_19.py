@@ -1,5 +1,6 @@
 # Implemente uma função que receba dois argumentos: uma lista de números e um número. A função deve retornar todas as combinações de pares na lista que somem ao número dado.
 
+
 def encontrar_pares(lista, soma):
     pares = []
     for i in range(len(lista)):

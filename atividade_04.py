@@ -26,4 +26,5 @@ def contar_caracteres(s):
         contagem[caractere] = contagem.get(caractere, 0) + 1
     return contagem
 
+
 print(contar_caracteres("engenharia de dados"))

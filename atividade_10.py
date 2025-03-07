@@ -3,8 +3,8 @@
 # Minha Solução:
 valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-pares:list = []
-impares:list = []
+pares: list = []
+impares: list = []
 
 for i in valores:
     if i % 2 == 0:
@@ -14,8 +14,6 @@ for i in valores:
 
 print(f"Os números pares são: {pares}")
 print(f"Os números Ímpares são: {impares}")
-
-
 
 
 # Jornada de Dados
